@@ -48,6 +48,8 @@ Broker Mosquitto
 
 Simulador WokWi
 
+-> Dependências:
+As bibliotecas utilizadas no projeto foram essenciais para garantir a comunicação e o funcionamento correto do sistema IoT. A biblioteca WiFi.h foi responsável por permitir que o ESP32 se conectasse à rede sem fio, possibilitando o envio de dados para a internet. Já a PubSubClient.h foi utilizada para implementar o protocolo MQTT, permitindo que o ESP32 publicasse mensagens no broker test.mosquitto.org, mantendo uma comunicação contínua e confiável com o Node-RED. Essas duas bibliotecas formam a base da conectividade do projeto, permitindo o envio periódico dos batimentos cardíacos simulados e garantindo a integração entre hardware e dashboard web.
 
 
 ->Instruções de Uso
